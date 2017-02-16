@@ -12,7 +12,7 @@
 RootModule = 'loader.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.1'
+ModuleVersion = '1.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -107,7 +107,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Updated author information'
+        ReleaseNotes = 'Fixed some bugs'
 
         # External dependent modules of this module
         # ExternalModuleDependencies = ''
