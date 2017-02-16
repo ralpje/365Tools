@@ -14,19 +14,19 @@
 RootModule = 'loader.psm1'
 
 # Version Number
-ModuleVersion = '1.0'
+ModuleVersion = '1.1'
 
 # Unique Module ID
 GUID = '13de5fa6-fbec-4380-880d-bbcbced069d2'
 
 # Module Author
-Author = 'ralpj'
+Author = 'Ralph Eckhard'
 
 # Company
-CompanyName = 'ralpj'
+CompanyName = '365Dude - www.365dude.nl'
 
 # Copyright
-Copyright = '(c) 2017 ralpj. All rights reserved.'
+Copyright = '(c) 2017 Ralph Eckhard. All rights reserved.'
 
 # Module Description
 Description = 'Toolset for working with O365 in Powershell'
