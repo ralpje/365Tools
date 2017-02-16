@@ -9,3 +9,4 @@
 # LOADING ALL FUNCTION DEFINITIONS:
 
 . $PSScriptRoot\New-MSOLReport.ps1
+. $PSScriptRoot\Open-MSOLConnection.ps1
