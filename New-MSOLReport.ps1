@@ -17,6 +17,9 @@
     [string]
     $outfile
   )
+  $outpath = split-path $outfile
+  if (!(test-path $outpath)) {new-item $outpath -ItemType Directory}
+  if (!(get-module msonline)) {open-msolconnection}
   Write-Progress -Id 1 -Activity "Generating MSOL Report" -Status "Starting Inital Query" -PercentComplete 0
   $arrResults = @()
   $starttime = (get-date)
