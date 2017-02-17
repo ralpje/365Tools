@@ -10,6 +10,6 @@ function Open-MSOLConnection
     #>
   $LiveCred = Get-Credential
   $Session = New-PSSession -Name MSOL -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/PowerShell/ -Credential $LiveCred -Authentication Basic -AllowRedirection
-  connect-msolservice -credential $LiveCred | Out-Null
-   Import-PSSession $Session | Out-Null
+  Import-Module (Import-PSSession $Session -AllowClobber) -Global
+  connect-msolservice -credential $LiveCred
 }
