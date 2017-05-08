@@ -8,7 +8,6 @@ function Get-AdminInfo
     .EXAMPLE
     Get-AdminInfo
     #>
-  [CmdletBinding()]
 if (!(get-module msonline)) {open-msolconnection}
 #region Get data
 $AdminRole = Get-MsolRole | where {$_.name -like 'Company Administrator'}
