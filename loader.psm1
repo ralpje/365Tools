@@ -10,3 +10,6 @@
 
 . $PSScriptRoot\New-MSOLReport.ps1
 . $PSScriptRoot\Open-MSOLConnection.ps1
+. $PSScriptRoot\get-alternateinfo.ps1
+. $PSScriptRoot\get-mailboxauditsettings.ps1
+. $PSScriptRoot\get-admininfo.ps1
