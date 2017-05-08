@@ -45,6 +45,8 @@
       'Title'=$user.Title;
       'Licensed'=$user.IsLicensed;
       'MobilePhone'=$user.MobilePhone;
+      'AlternateEmail'=$user.AlternateEmailAddress;
+      'AlternatePhone'=$user.AlternateMobilePhones;
       'LastLogon'=$stats.LastLogonTime;
       'MailboxSize'=$stats.TotalItemSize;
     'DeletedItemSize'=$stats.TotalDeletedItemSize}
