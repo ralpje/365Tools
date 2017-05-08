@@ -12,7 +12,7 @@
 RootModule = 'loader.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.3'
+ModuleVersion = '2.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -69,7 +69,7 @@ Description = 'Toolset for working with O365 in Powershell'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'New-MSOLReport', 'Open-MSOLConnection'
+FunctionsToExport = 'New-MSOLReport', 'Open-MSOLConnection, Get-AdminInfo, Get-AlternateInfo, Get-MailboxAuditSettings'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
@@ -107,7 +107,7 @@ PrivateData = @{
         # IconUri = ''
 
         # ReleaseNotes of this module
-        ReleaseNotes = 'Fixed importing Exchange Online module'
+        ReleaseNotes = 'Created V2.0, including some new functions.'
 
         # External dependent modules of this module
         # ExternalModuleDependencies = ''
