@@ -31,3 +31,4 @@ Write-Output "You should use the portal to check if non-global admin roles are u
 Write-Output "You should check if the users holding non-global admin roles should still be having these priviliges."
 Write-Output "These checks will be included in this script in the near future."
 #endregion
+}
