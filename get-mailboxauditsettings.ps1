@@ -19,7 +19,7 @@
   if (!(get-module msonline)) {open-msolconnection}
 #region Set variables
   $mbxs = get-mailbox -resultsize unlimited
-  $AuditDisabled = $mbxs | where {$_.AuditEnabled -ne $true}
+  $AuditDisabled = $mbxs | where-object {$_.AuditEnabled -ne $true}
   $DisabledCount = $AuditDisabled.count
 #endregion
 if ($update) {
