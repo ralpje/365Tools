@@ -8,4 +8,4 @@ function New-MSOLReport
     .EXAMPLE
     Get-ForwardMailbox
   #>
-get-maiblbox | where {$_.ForwardingSMTPAddress -ne $null} | select-object Name, PrimarySMTPAddress, ForwardingSMTPAddress
+get-mailbox | where {$_.ForwardingSMTPAddress -ne $null} | select-object Name, PrimarySMTPAddress, ForwardingSMTPAddress
