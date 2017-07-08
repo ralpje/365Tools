@@ -30,7 +30,7 @@ CompanyName = '365Dude - www.365dude.nl'
 Copyright = '(c) 2017 Ralph Eckhard. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Toolset for working with O365 in Powershell'
+Description = 'Toolset for working with Office365 in Powershell'
 
 # Minimum version of the Windows PowerShell engine required by this module
 # PowerShellVersion = ''
