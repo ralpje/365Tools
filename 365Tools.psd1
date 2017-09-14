@@ -69,7 +69,7 @@ Description = 'Toolset for working with Office365 in Powershell'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = 'New-MSOLReport', 'Open-MSOLConnection', 'Get-AdminInfo', 'Get-AlternateInfo', 'Get-MailboxAuditSettings'
+FunctionsToExport = 'New-MSOLReport', 'Open-MSOLConnection', 'Get-AdminInfo', 'Get-AlternateInfo', 'Get-MailboxAuditSettings, Get-MSOLIPRanges'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
@@ -113,7 +113,7 @@ PrivateData = @{
         # ExternalModuleDependencies = ''
 
     } # End of PSData hashtable
-    
+
  } # End of PrivateData hashtable
 
 # HelpInfo URI of this module

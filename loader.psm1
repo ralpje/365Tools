@@ -13,3 +13,4 @@
 . $PSScriptRoot\get-alternateinfo.ps1
 . $PSScriptRoot\get-mailboxauditsettings.ps1
 . $PSScriptRoot\get-admininfo.ps1
+. $PSSCriptRoot\get-msolipranges.ps1
