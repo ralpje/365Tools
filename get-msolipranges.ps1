@@ -1,4 +1,4 @@
-function Open-MSOLConnection {
+function Get-MSOLIPRanges {
     <#
     .SYNOPSIS
     Finds IP range for given O365 Products to create firewall rules.
