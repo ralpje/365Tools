@@ -43,7 +43,7 @@
             'EmailAddress'    = $user.UserPrincipalName;
             'Title'           = $user.Title;
             'Licensed'        = $user.IsLicensed;
-            'Licenses'        = $user.Licenses.AccountSKUID;
+            'Licenses'        = $user.Licenses.AccountSKUID -join ',';
             'MobilePhone'     = $user.MobilePhone;
             'LastLogon'       = $stats.LastLogonTime;
             'MailboxSize'     = $stats.TotalItemSize;
